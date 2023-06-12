@@ -17,3 +17,4 @@ crear perfiles
 crear formulario para reportes
 aplicar api para pagos usando paypal o stripe
 documentar la api con swagger
+
