@@ -11,3 +11,4 @@
 * Los usuarios tambien podrán buscar imagenes o publicaciones por región, filtrando por región (paises) 
 
 * Los usuarios podrán guardar las imagenes y archivos en sus computadoras o celulares pagando la version premium.
+
