@@ -12,3 +12,5 @@ try {
 } catch (error) {
   console.error("error en la conexión:", error);
 }
+
+export default sequelize
