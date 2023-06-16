@@ -17,7 +17,9 @@ const Post = sequelize.define(
       allowNull: true,
     },
     date_post: {
-      type: Sequelize.STRING,
+      type: Sequelize.DATE,
+      allowNull: false,
+      defaultValue: Sequelize.NOW,
     },
   },
   {
