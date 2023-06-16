@@ -14,7 +14,8 @@ import filter_country from "../routes/search/filter.country.search.js";
 import comments from "../routes/users/users.comments.js";
 import report_create from "../routes/admin/add.report.js";
 import report_show from "../routes/admin/showReports.js";
-
+import routerUser from "../routes/users/user.js";
+import routerAvatar from "../routes/Avatars/getAvatars.js"
 // authorization db
 async () => {
   try {
@@ -51,7 +52,8 @@ app.use("/admin/report", report_show);
 
 // users
 app.use("/user", posts);
-
+app.use(routerAvatar)
+app.use(routerUser)
 // * index route
 app.use("/inicio", index);
 
