@@ -5,13 +5,14 @@ const createReport = async (req, res) => {
     // get data from report form
     const { report_name, report_type } = req.body
 
+    // creating report
     const newReport = await Report.create({
      report_name,
-     report_type
+     report_type,
     });
     res.json({
-      message: "new report created!",
-      data: newReport,
+      "message": "new report created!",
+      "data": newReport,
     });
   } catch (error) {
     throw new Error(error);
