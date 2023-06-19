@@ -8,9 +8,10 @@
     "dev": "nodemon server/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hiram and Camilo",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",
@@ -21,7 +22,6 @@
     "sequelize": "^6.32.0"
   },
   "devDependencies": {
-    "bcrypt": "^5.1.0",
     "nodemon": "^2.0.22"
   }
 }
